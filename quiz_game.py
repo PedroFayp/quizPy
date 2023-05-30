@@ -1,3 +1,5 @@
+import time
+
 print("Bem-vindo ao meu quiz")
 
 playing = input("Você quer jogar? ")
@@ -22,11 +24,23 @@ if answer == "unidade central de processamento":
 else:
     print("Incorreto")
 
+time.sleep(1.5)
+
+print("Próxima pergunta")
+
+time.sleep(1.5)
+
 answer = input("O que Significa GPU? ")
 if answer == "unidade de processamento de gráficos":
     print("Correto!")
 else:
     print("Incorreto")
+
+time.sleep(1.5)
+
+print("Próxima pergunta")
+
+time.sleep(1.5)
 
 answer = input("O que Significa RAM? ")
 if answer == "memória de acesso aleatório":
@@ -34,8 +48,18 @@ if answer == "memória de acesso aleatório":
 else:
     print("Incorreto")
 
-answer = input("")
-if answer == "":
+time.sleep(1.5)
+
+print("Próxima pergunta")
+
+time.sleep(1.5)
+
+answer = input("O que Significa PSU? ")
+if answer == "unidade de fonte de alimentação":
     print("Correto!")
 else:
     print("Incorreto")
+
+time.sleep(1)
+
+print("Parabéns! Obrigado por jogar")
